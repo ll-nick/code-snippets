@@ -10,7 +10,7 @@ def ensure_dir(d):
         Path(d).mkdir(parents=True)  
 
 def example():
-    # Define example transformation
+    # Example path
     path = "/tmp/test/test2"
 
     ensure_dir(path)
